@@ -21,6 +21,10 @@
 
 @media only screen and (max-width: 700px) {
 
+  body {
+  align-items: baseline;
+}
+
 
   .card {
     display: flex;
@@ -53,10 +57,6 @@
   .content-stats {
     margin-right: 4%;
     margin-top: 30px;
-  }
-
-  .content-stats {
-    /* display: block; */
   }
 }
 

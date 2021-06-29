@@ -1,0 +1,16 @@
+@media only screen and (max-width: 800px) {
+
+  body {
+    align-items: baseline;
+  }
+
+
+  .main-box {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .card {
+    width: 100%;
+  }
+}
