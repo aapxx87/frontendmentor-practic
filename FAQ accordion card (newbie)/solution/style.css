@@ -1,0 +1,159 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  justify-content: center;
+  background: linear-gradient(rgba(175, 103, 233, 1), rgba(101, 101, 231, 1));
+  font-family: Kumbh Sans;
+}
+
+
+.main-box {
+  width: 900px;
+  height: 490px;
+  display: flex;
+  background: #fff;
+  border-radius: 15px;
+  box-shadow: 20px 29px 22px 5px rgba(34, 60, 80, 0.2);
+}
+
+/* Image */
+
+.image {
+  width: 50%;
+  position: relative;
+  overflow: hidden;
+}
+
+.image-women {
+  position: absolute;
+  top: 50%;
+  left: -20%;
+  transform: translateY(-50%);
+  z-index: 1;
+}
+
+
+.image-pattern {
+  width: 850px;
+  position: absolute;
+  top: -45%;
+  left: -105%;
+  z-index: 0;
+}
+
+
+/* FAQ Content */
+
+.faq-content {
+  width: 50%;
+  padding-top: 60px;
+}
+
+h1 {
+  margin-bottom: 50px;
+}
+
+
+/* Стилизация списка */
+
+ul {
+  max-width: 350px;
+}
+
+ul li {
+  padding-bottom: 15px;
+  border-bottom: 1px solid hsl(240, 5%, 91%);
+  list-style: none;
+}
+
+ul li:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+
+/* Стилизация FAQ контента */
+.question {
+  font-size: 14px;
+  color: hsl(240, 6%, 50%);
+  transition: all .2s;
+}
+
+.question:hover {
+  color: hsl(14, 88%, 65%);
+}
+
+.active {
+  font-weight: 700;
+  color: hsl(237, 12%, 33%);
+}
+
+.answer {
+  display: block;
+  font-size: 12px;
+  line-height: 19px;
+  color: hsl(240, 6%, 50%);
+  height: 0px;
+  opacity: 0;
+  transition: all .1s;
+  margin-right: 10px;
+}
+
+.visible {
+  display: block;
+  margin-top: 15px;
+  height: auto;
+  opacity: 1;
+}
+
+
+
+.icon {
+  float: right;
+  margin-right: 5px;
+  transform: translateY(5px);
+}
+
+.icon-down {
+  transform: scale(1, -1);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* f */
