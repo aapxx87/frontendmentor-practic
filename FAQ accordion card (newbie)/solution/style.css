@@ -11,6 +11,7 @@ body {
   justify-content: center;
   background: linear-gradient(rgba(175, 103, 233, 1), rgba(101, 101, 231, 1));
   font-family: Kumbh Sans;
+  overflow: scroll;
 }
 
 
