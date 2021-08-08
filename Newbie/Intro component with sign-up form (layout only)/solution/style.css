@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.container {
+  display: flex;
+  width: 760px;
+}
+
+
+/* --- CONTENTBOX --- */
+
+.content-box {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-right: 40px;
+  color: #5F80AA;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+
+/* --- FORM BOX --- */
+
+.form-box {
+  width: 50%;
+} 
+
+.form {
+  background-color: #C1CFE2;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+
+/* inputs */
+
+input {
+  display: block;
+  width: 100%;
+  padding: 10px 10px;
+  border: 1px solid #5F80AA;
+  border-radius: 5px;
+}
+
+input:not(:first-child) {
+  margin-top: 20px;
+}
+
+:active, :hover, :focus {
+  outline: 0;
+  outline-offset: 0;
+}
+
+
+/* Buttons */
+
+a {
+  background-color: #5F80AA;
+  color: #fff;
+  text-decoration: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.btn-purple {
+  display: inline-block;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.btn-green {
+  display: inline-block;
+  width: 100%;
+  margin-top: 20px;
+}
+
+
+/* Terms */
+
+.terms {
+  margin-top: 10px;
+  font-size: 13px;
+  text-align: center;
+}
+
+
+
+
+
+/* --- BREAKPOINS --- */
+
+@media (max-width: 500px) {
+
+  body {
+    height: auto;
+  }
+
+  .container {
+    display: block;
+    margin: 50px 20px;
+  }
+
+  .content-box {
+    width: 100%;
+    padding-right: 0;
+  }
+
+  .content {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .form-box {
+    width: 100%;
+  }
+
+} 

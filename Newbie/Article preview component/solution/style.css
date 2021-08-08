@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Manrope', sans-serif;
+  font-size: 13px;
+  background: #EDF2F7;
+}
+
+
+.card {
+  width: 670px;
+  display: flex;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 8px 8px 18px 0px rgba(34, 60, 80, 0.1);
+}
+
+
+
+/* ---- Image box */
+
+.image {
+  width: 40%;
+  background-image: url(images/drawers.jpg);
+  background-size: cover;
+  background-position: center;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+
+
+/* ---- Content box */
+
+.content {
+  width: 60%;
+  padding: 30px 35px;
+}
+
+h1 {
+  margin-bottom: 15px;
+  font-weight: 700;
+  color: hsl(217, 19%, 35%);
+  font-size: 19px;
+  line-height: 26px;
+}
+
+.avatar {
+  display: inline-block;
+  width: 35px;
+  border-radius: 50%;
+  margin-right: 12px;
+  transform: translateY(3px);
+}
+
+.text {
+  font-size: 12px;
+  font-weight: 500;
+  color: hsl(212, 23%, 69%);
+  line-height: 20px;
+  margin-bottom: 15px;
+}
+
+.name {
+  display: inline-block;
+  color: hsl(217, 19%, 35%);
+  font-size: 12px;
+}
+
+
+.name span {
+  display: block;
+  color: hsl(212, 23%, 69%);
+  font-size: 12px;
+}
+
+.btn-share {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  float: right;
+  background: #EDF2F7;
+  border-radius: 50%;
+  position: relative;
+  transform: translateY(5px);
+}
+
+a img {
+  width: 14px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -60%);
+}
+
+.box-share {
+  display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* f */

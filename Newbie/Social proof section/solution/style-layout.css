@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: 'Spartan', sans-serif;
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  background: #F0F0F0;
+}
+
+/* Основной бокс */
+.main {
+  max-width: 1250px;
+  background: #fff;
+
+  padding: 100px 120px;
+  box-shadow: 8px 9px 15px 0px rgba(0,0,0,0.1);
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+
+/* Вехняя часть */
+.top-part {
+  display: flex;
+}
+
+
+/* Вехняя часть - лево */
+.top-part-left {
+  width: 50%;
+}
+
+
+h1 {
+  max-width: 350px;
+}
+
+
+p {
+  max-width: 420px;
+}
+
+
+/* Вехняя часть - право */
+.top-part-right {
+  width: 50%;
+
+  padding-left: 15%;
+}
+
+
+ul {
+  float: right;
+}
+
+
+/* Нижняя часть */
+.bottom-part {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+/* Бокс отзывов */
+.testimonials {
+  width: 32%;
+
+  margin-top: 40px;
+}
+
+
+.testimonials:not(:last-child) {
+  margin-right: 20px;
+}
+
+.photo {
+  display: inline-block;
+  width: 37px;
+  border-radius: 50%;
+}
+
+.name {
+  display: inline-block;
+  font-size: 13px;
+  transform: translateY(-4px);
+  margin-left: 20px;
+  font-weight: 700;
+}
+
+.name span {
+  display: block;
+  font-weight: 400;
+  color: rgb(189, 78, 128);
+}
+
+.testim-text {
+  margin-top: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* f */

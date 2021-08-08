@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Tip Calculator App</title>
+</head>
+
+<body>
+
+
+  <section class="container">
+
+
+    <!-- CONDITIONS BOX -->
+    <div class="conditions-box box">
+
+      <p class="title">Bill</p>
+
+      <input type="number" class="bill">
+
+      <p class="title">Select Tip %</p>
+
+      <div class="select-box">
+        <div class="select">5%</div>
+        <div class="select">10%</div>
+        <div class="select">15%</div>
+        <div class="select">25%</div>
+        <div class="select">50%</div>
+        <div class="select"><input type="number" class="select-tip-input" placeholder="Custom"></div>
+      </div>
+
+      <p class="title">Number of People</p>
+
+      <input type="text" class="people">
+
+    </div>
+
+
+    <!-- RESULT BOX -->
+    <div class="result-box box">
+
+      <div class="result-row">
+        <p>Tip Amount</p>
+        <div class="number tip-amount"></div>
+      </div>
+
+      <div class="result-row">
+        <p>Total</p>
+        <div class="number total-amount"></div>
+      </div>
+
+
+      <button class="btn btn-calc">CALC</button>
+
+      <button class="btn btn-reset">RESET</button>
+
+    </div>
+
+  </section>
+
+
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>

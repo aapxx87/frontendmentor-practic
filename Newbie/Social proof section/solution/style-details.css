@@ -1,0 +1,104 @@
+ul {
+  list-style: none;
+}
+
+
+h1 {
+  font-size: 41px;
+  color: hsl(300, 43%, 22%);
+  line-height: 40px;
+
+  margin-bottom: 20px;
+}
+
+
+p {
+  font-size: 13px;
+  color: hsl(303, 10%, 53%);
+  font-weight: 500;
+  line-height: 20px;
+}
+
+ul li {
+  display: flex;
+  font-size: 13px;
+  font-weight: 500;
+  background: hsl(300, 24%, 96%);
+
+  width: 430px;
+  height: 55px;
+  align-items: center;
+  border-radius: 5px;
+  padding-left: 20px;
+}
+
+.li-one {
+  transform: translateX(-100px);
+}
+
+.li-two {
+  transform: translateX(-50px);
+}
+
+ul li:not(:last-child) {
+  margin-bottom: 15px;
+}
+
+.star {
+  margin-right: 5px;
+  transform: translateY(-2px);
+}
+
+.star:last-child {
+  margin-right: 30px;
+}
+
+.testimonials {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 20px;
+
+  background: hsl(300, 43%, 22%);
+  color: hsl(300, 24%, 96%);
+  padding: 30px;
+  border-radius: 5px;
+}
+
+
+.testimonials.two {
+  transform: translateY(20px);
+}
+
+.testimonials.three {
+  transform: translateY(40px);
+}
+
+.testimonials p {
+  font-size: 12px;
+  color: hsl(300, 24%, 96%);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* f */
